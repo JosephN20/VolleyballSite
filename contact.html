@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css" />
+<title>Contact Page</title>
+</head>
+<body>
+    <header>
+		<img class="headImg" src="images/volleyball-header.jpeg" alt="Volleyball Header">
+	</header>
+
+	<nav>
+		<ul class="navLinks">
+			<li class="navItems"><a href="index.html">Home</a></li>
+			<li class="navItems"><a href="external.html">Links</a></li>
+			<li class="navItems"><a href="about.html">About</a></li>
+			<li class="navItems"><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+    <div class="contact">  
+        <h1>Contact Joseph Nguyen</h1>
+        <img class="contactImg" src="images/JosephPic.png" alt="My picture" height="150px">
+        <p> 399 Edmond Ct<br>Suwanee,GA 30024</p>
+        <p>770-310-2752</p>
+    <div class="oneCol">
+    <div class="cardStyle">
+        <form action="mailto:jdn09440@uga.edu" method="post"> 
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+
+            <p>Skill Level: </p>
+            <input type="radio" id="beginner" name="skills" value="Beginner">
+            <label for="begginer">Beginner</label><br>
+            <input type="radio" id="intermediate" name="skills" value="Intermediate">
+            <label for="intermediate">Intermediate</label><br>
+            <input type="radio" id="advanced" name="skills" value="Advanced">
+            <label for="advanced">Advanced</label><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="8" cols="40"></textarea>
+            <br><br>
+            <input type="submit" id="submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+    </div>
+    </div>  
+	
+	<footer>
+		<a href="contact.html">&#169;Volleyball</a>
+	</footer>
+</body>
+</html>
